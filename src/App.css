@@ -521,41 +521,58 @@ color: gray;
   background-color: #F8F8F8;
   max-width: 100%;
 }
-.Foot{
+.Foot {
   padding-top: 180px;
   color: black;
 }
-.Foot ul li{
+
+.Foot ul li {
   list-style: none;
   color: black;
-
 }
-.Foot ul li a{
+
+.Foot ul li a {
   list-style: none;
   color: black;
-
 }
-.foot-1{
+
+.foot-1 {
   width: 150px;
 }
-.form-email{
-width: 200px;
-height: 40px;
-border-radius: 7px;
+
+.form-email {
+  width: 200px;
+  height: 40px;
+  border-radius: 7px;
 }
-.Foot h2{
+
+.Foot h2 {
   font-size: 20px;
 }
-.btm-0{
+
+.btm-0 {
   width: 200px;
   height: 40px;
   background-color: #FF4D30;
   border: none;
   border-radius: 7px;
 }
-.sum{
+
+.sum {
   padding-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .Foot {
+    padding-top: 50px;
+  }
+
+  .col-6,
+  .col-md-3 {
+    padding: 10px;
+  }
+}
+
 
 
 
@@ -796,6 +813,11 @@ border-radius: 7px;
   .model-1 img {
   width: 300px;
   }
+  .img-responsive {
+    max-width: 80%; /* Adjust the max-width as needed */
+    height: auto
+    ;
+  }
 
   .AUDI-6 {
     width: 250px;
@@ -845,20 +867,34 @@ border-radius: 7px;
 
   .container.cross {
     padding-top: 70px;
+  }.cross{
+    gap: 100px;
   }
 
   .cross-1 {
     width: 100%;
     text-align: center;
+    gap: 100px;
   }
 .cross-11{
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
+  margin-top: 100px;
 }
 .cross-11 img{
   width:200px;
+}
+.cross .detail {
+  font-size: 12px; /* Adjust the font size as needed */
+  padding: 5px 10px; /* Add padding to the button as needed */
+  width: 100px;
+}
+
+.cross {
+  padding-top: 20px; /* Add padding to the top of the "cross" section as needed */
 }
   .best {
     width: 100%;
@@ -866,7 +902,7 @@ border-radius: 7px;
   }
 
   .detail {
-    width: 100%;
+    width: 30%;
   }
   .ron-1 {
     padding-top: 20px;
@@ -878,7 +914,7 @@ border-radius: 7px;
   }
 
   .ron2 {
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   .ron3 {
@@ -994,25 +1030,7 @@ border-radius: 7px;
    .phone {
     display: none;
     }
-  
-    .Foot {
-      padding-top: 80px; 
-    }
-  
-    .foot-5 {
-      flex: 0 0 100%; 
-      max-width: 100%;
-      margin-bottom: 20px; 
-    }
-  
-    .form-email {
-      width: 100%; 
-      max-width: 300px; 
-    }
-  
-    .btm-0 {
-      width: 100%;
-    }
+ 
   }
   
 

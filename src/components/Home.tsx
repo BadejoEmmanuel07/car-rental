@@ -252,38 +252,40 @@ const Home = () => {
       />
       )}
   </div>
-
   <div className='plan'>
-    <div className='text-center plan-1'>
-      <h3>Plan your trip now</h3>
-      <h1>Quick & easy car rental</h1>
-    </div>
-    <div className="container plan-3 text-center">
-  <div className="row">
-    <div className="col-md-4 w-40  text-center">
-      <img src={cArpic} alt="" className="mx-auto text-center" />
-      <h3>Select Car</h3> 
-      <div  className='w-30'>
-      <p >We offer a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.</p>
+  <div className='text-center plan-1'>
+    <h3>Plan your trip now</h3>
+    <h1>Quick & easy car rental</h1>
+  </div>
+  <div className="container plan-3 text-center">
+    <div className="row">
+      <div className="col-md-4 w-40 text-center">
+        <img src={cArpic} alt="" className="mx-auto text-center img-responsive" />
+        <h3>Select Car</h3>
+        <div className='w-30'>
+          <p>We offer a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.</p>
+        </div>
       </div>
-    </div>
-    <div className="col-md-4 w-40 ">
-      <img src={Drive} alt="" className="mx-auto text-center" />
-      <h3>Contact Operator</h3>
-      <div  className='w-30'>
-      <p>Our knowledgeable and friendly operators are always ready to help with any questions or concerns.</p>
-    </div>
-    </div>
-    <div className="col-md-4 w-40 ">
-      <img src={customercare} alt="" className="mx-auto text-center" />
-      <h3>Let's Drive</h3>
-      <div  className='w-30'>
-      <p>Whether you're hitting the open road, we've got you  covered with our wide range of cars.</p>
-    </div>
+      <div className="col-md-4 w-40">
+        <img src={Drive} alt="" className="mx-auto text-center img-responsive" />
+        <h3>Contact Operator</h3>
+        <div className='w-30'>
+          <p>Our knowledgeable and friendly operators are always ready to help with any questions or concerns.</p>
+        </div>
+      </div>
+      <div className="col-md-4 w-40">
+        <img src={customercare} alt="" className="mx-auto text-center img-responsive" />
+        <h3>Let's Drive</h3>
+        <div className='w-30'>
+          <p>Whether you're hitting the open road, we've got you covered with our wide range of cars.</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-  </div>
+
+
+
 
 
 <div>
@@ -412,7 +414,6 @@ const Home = () => {
         <div className="text-center cross-11 d-flex justify-content-center">
           <img src={Charge} alt=""/>
           <div className='cross-1'>
-
           <h4>No Hidden Charges</h4>
           <p>Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.</p>
         </div>
@@ -421,6 +422,9 @@ const Home = () => {
     </div>
   </div>
 </div>
+
+
+
 
 <div className="ron2">
     <div className="ron-2">
