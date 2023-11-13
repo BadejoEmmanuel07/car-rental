@@ -1,38 +1,1015 @@
-.App {
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.btm {
+    width: 90px;
+    height: 40px;
+      border: none;
+      background-color: #FF4D30;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 3px;
+
+    }
+  
+   .hommie1 h1{
+font-size: 50px ;  
+font-weight: bolder;
+ }
+   .hommie1 h3{
+font-size: 30px ; 
+font-weight: 600; 
+ }
+   .hommie1 p{
+font-size: 16px ;  
+ }
+ .big{
+    color: #FF4D30;
+ }
+
+.navbar-nav .nav-link .navt {
+  font-weight: bold;
+  color: #000 !important; /* Set the text color to black with !important */
+  transition: color 0.3s; /* Add a transition for a smoother color change */
+}
+
+.navbar-nav .nav-link .navt:hover {
+  color: #FF4D30 !important; /* Set the hover color with !important */
+}
+
+
+.navtt{
+    z-index: 1;
+    }
+    .hommie{
+        padding-top:100px;
+    }
+   
+    .text-content{
+        z-index: 1;
+    }
+    .town1{
+        position: absolute;
+        top: 0%;
+        right: 0;
+        width: 600px;
+
+    }
+    .car-home {
+        position: relative; /* or any other value like 'absolute', 'fixed', etc. */
+        z-index: 1;
+        width: 900px;
+    }
+    .btm1 {
+        width: 120px;
+        height: 50px;
+        border: none;
+        background-color: #FF4D30;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s ease; 
+        margin-right: 10px;
+      }
+    .btm2 {
+        width: 120px;
+        height: 50px;
+        border: none;
+        background-color: black;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+      
+      .btm2:hover {
+        background-color: white;
+        color: black;
+        border: black solid 2px;
+      }
+      .form-control {
+        width: 600px;
+      }
+      .form-group h4{
+        font-size: 18px;
+        color: black;
+      }
+      .form-group span{
+        color: #FF4D30;
+      }
+
+      .label-select {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      .form-group {
+        text-align: center;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .form-group input {
+        margin-bottom: 10px;
+      }
+      
+      .btn2 {
+        width: 200px;
+        height: 45px;
+        background-color: #FF4D30;
+        border: none;
+        color: white;
+        border-radius: 2px;
+      }
+      
+      
+      .form-group {
+        text-align: center;
+        margin: 20px;
+      }
+      
+      label {
+        display: block;
+        font-size: 1.2rem;
+      }
+      
+      .custom-select {
+        position: relative;
+      }
+      
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+      
+      .custom-select-image {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .custom-select-image img{
+        width:25px;
+      }
+      .san {
+        max-width: 1100px;
+        height: 350px;
+        position: relative;
+        z-index: 100;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .custom-select select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: none;
+        padding-right: 30px;
+        margin: 0;
+        width: 100%;
+      }
+      #drop{
+        width: 300px;
+        height: 40px;
+      }
+      .custom-select-image {
+        position: absolute;
+        right: 0;
+        top: 2;
+      }  
+
+.btn2{
+  width: 190px;
+  height: 45px;
+  background-color: #FF4D30;
+  border: none;
+  color:white;
+  border-radius: 2px;
+}
+.contain{
+  padding-top: 10px;
+  width: 200px;
+  height: 45px;
+  background-color: #FF4D30;
+  border: none;
+  color: white;
+  border-radius: 2px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.con{
+padding-top: 46px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contain-1{
+  background-color: white;
+  width: 600px ;
+  border-radius: 10px;
+  position: absolute;
+  right: 200px;
+  top: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.contain-2{
+  background-color: #FF4D30;
   color: white;
+  border-radius: 2px;
+  padding: 10px;
+  
+}
+.contain-2 h2{
+  font-size: 1.5rem;
+  color: white;
+ 
+}
+.contain-3{
+  background-color: #FFEAE6;
+  height: 100px;
+  padding: 20px;
+}
+.contain-3 h4{
+color: #FF4D30;
+font-size: 1.2rem;
+}
+.contain-3 p{
+  font-size: 0.9rem;
+}
+.contain-5 {
+  gap: 250px;
+  padding: 50px;
+}
+.contain-5 img{
+width: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.contain-6 {
+  padding: 20px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  margin: 0;
+  font-size: 18px;
 }
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+label {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.submit-button {
+  background-color: #FF4D30;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #ff4c30b1;
+}
+
+.contain-7{
+  width: 60%;
+  height: 10%;
+  background-color: black;
+}
+      .custom-input {
+    width: 310px; 
+    height: 35px; 
+    font-size: 0.8em; 
+  }    
+  .tem-2{
+    width:1100px;
+  }
+
+  .plan{
+    padding-top: 140px ;
+  }
+  .plan-1 h1{
+    font-size:50px;
+  }
+  .plan-3{
+    padding-top: 60px;
+  }
+  .plan-3 p{
+    font-size: 15px;
+    color: gray;
+  }
+  .plan-3 h3{
+    font-size: 30px;
+  }
+  .custom-table {
+    width: 100%; 
+    max-width: 200px; 
+    font-size: 0.9rem;
+  }
+  .audi{
+    width:100px;
+  }
+
+.AUDI-6{
+  background-color: rgba(128, 128, 128, 0.39);
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.AUDI-6:hover{
+  background-color: #FF4D30;
+  color:white;
+}
+.rent{
+  background-color: #FF4D30;
+  width: 200px;
+  height: 40px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+.model{
+  padding-top:170px;
+  
+}
+.model h2{
+font-size:35px;  
+}
+.model h3{
+font-size: 23px ;  
+}
+.model-1{
+  padding-top:40px;
+
+}
+.sav-1{
+  padding-top: 180px;
+}
+.save{
+  width: 100%;
+  height: 250px;
+  background-color: #2D2D2D;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+.save h2{
+ font-size: 55px;
+}
+.save span{
+color: #FF4D30;
+}
+.save2{
+  width: 1000px;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+.cross-1{
+  width: 400px;
+}
+.cross-1 p{
+color:gray;
+}
+.best{
+  width: 400px;
+}
+.best h3{
+  font-size: 20px;
+}
+.cross{
+  padding-top: 170px;
+}
+.best p{
+color: gray;
+
+}
+.best h2{
+  
+}
+.detail{
+  width: 120px;
+  height: 40px;
+  background-color: #FF4D30;
+  border: none;
+  color:white;
+  border-radius: 2px;
+}
+.detail:hover{
+  bottom: sliver 1px;
+}
+.ron-1{
+  padding-top:40px;
+  gap:40px;
+  border-radius:20px;
+}
+.ron2{
+  /* width:700px; */
+  padding-top:100px;
+}
+.ron3{
+  gap:20px;
+  padding-top:50px;
+
+}
+.ron1{
+  width:500px;
+  height: 400px;
+  background-color: white;
+  padding: 20px;
+}
+
+.ron-2{
+  background-color:#F8F8F8;
+  padding-top:30px;
+  max-width: 100%;
+  text-align:center;
+  padding-bottom:100px;
+}
+.ron1 img{
+width: 20%;
+}
+.ron-2{
+  padding-top:100px;
+}
+.ron1 h1{
+  font-size:25px;
+}
+.ron1 h2{
+  font-size:20px;
+}
+.ron1 h4{
+  font-size:18px;
+}
+.ron2 h3{
+font-size:23px;
+}
+.ron2 p{
+color: gray;
+}
+.pat{
+  padding-top:100px;
+  padding-bottom:160px;
+}
+
+.question{
+  width: 500px;
+  text-align:center;
+  height:50px;
+  background-color: white;
+  box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding-top: 20px;
+  margin-top: 40px;
+  padding-bottom: 50px;
+  
+}
+.patt-1{
+  padding-top: 100px;
+}
+.question{
+  gap: 20px;
+}
+.question h3{
+  font-size: 18px;
+}
+
+.question span{
+  font-size: 20px;
+} 
+.answer{
+  width: 500px;
+  text-align: center;
+}
+.seach{
+  display: none;
+}
+.load{
+  padding-top: 100px;
+  padding-bottom: 109px;
+  gap:10px;
+  background-color: #F8F8F8;
+  max-width: 100%;
+}
+.Foot{
+  padding-top: 180px;
+  color: black;
+}
+.Foot ul li{
+  list-style: none;
+  color: black;
+
+}
+.Foot ul li a{
+  list-style: none;
+  color: black;
+
+}
+.foot-1{
+  width: 150px;
+}
+.form-email{
+width: 200px;
+height: 40px;
+border-radius: 7px;
+}
+.Foot h2{
+  font-size: 20px;
+}
+.btm-0{
+  width: 200px;
+  height: 40px;
+  background-color: #FF4D30;
+  border: none;
+  border-radius: 7px;
+}
+.sum{
+  padding-top: 10px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+  body{
+    max-width:100%;
+  }
+  .hommie {
+    padding-top: 40px; 
+    text-align: center;
+  }
+  .navbar-collapse {
+    background-color: #333; /* Set the background color for the collapsed menu */
+  }
+  
+  /* Style for the links in the collapsed navbar */
+  .navbar-nav .nav-link {
+    color: black !important; /* Set the text color for the links in the collapsed menu */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Remove the border from the last link in the collapsed navbar */
+  .navbar-nav .nav-link:last-child {
+    border-bottom: none;
+  }
+  
+  /* Style for the toggle button in the collapsed navbar */
+  .custom-toggler {
+    border: none;
+    background-color: #333; /* Set the background color for the toggle button */
+  }
+  
+  /* Style for the icon in the collapsed navbar */
+  .navbar-toggler-icon {
+    background-color: #fff; /* Set the color of the toggle icon */
+  }
+  
+  /* Style for the container of the collapsed navbar */
+  .navbar-collapse {
+    position: absolute;
+    top: 56px; /* Adjust the top position to match your design */
+    left: 0;
+    width: 100%;
+  }
+
+  .container{
+    box-shadow: none;
+  }
+  .navtt{
+    background-color: #fff;
+  
+  }
+  .label-select {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .form-group {
+    margin: 10px;
+  }
+
+  .custom-select-image {
+    right: 0;
+  }
+ 
+
+  .custom-select-image img {
+    width: 20px;
+  }
+
+  .btn2 {
+    width: 50%;
+  }
+  .btm1,
+  .btm2 {
+    display: inline-block; 
+    margin-top: 10px; 
+  }
+
+  .hommie1 h1 {
+    font-size: 40px; 
+  }
+.btn2{
+  width:100%;
+}
+  
+  .car-home2,
+  .car-home2 img,
+  .town1 {
+    display: none !important; 
+  }
+
+  .head p, .btm {
+    display: none; 
+  }
+
+  .hommie1 h1 {
+    font-size: 40px; 
+  } 
+  /* .d-flex {
+    flex-direction: column; 
+    gap: 10px;
+  } */
+
+  .form-group {
+    margin: 10px;
+  }
+
+  .custom-input {
+    width: 100%; 
+  }
+
+ 
+  
+  .contain {
+   
+   width: 200px;
+   height: 45px;
+   background-color: #FF4D30;
+   border: none;
+   color: white;
+   border-radius: 2px;
+   text-align: center;
+  }
+  .con{
+  padding-top: 46px;
+  padding-left: 43px;
+  }
+    .san{
+      height: 700px;
+      max-width: 90%;
+    }
+  
+  .plan{
+    margin-top:140px;
+    font-size: 20px;
+  }
+  .plan h1{
+    font-size: 33px;
+  }
+  .contain-1 {
+    width: 90%;
+    right: 5%;
+  }
+
+  .contain-2 {
+    padding: 8px;
+  }
+
+  .contain-2 h2 {
+    font-size: 1.2rem;
+  }
+
+  .contain-3 {
+    height: auto;
+    padding: 10px;
+  }
+
+  .contain-3 h4 {
+    font-size: 1rem;
+  }
+
+  .contain-3 p {
+    font-size: 0.8rem;
+  }
+
+  .contain-5 {
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .contain-5 img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .contain-6 {
+    padding: 10px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  }
+
+  .custom-input {
+    width: 100%;
+    height: 35px;
+    font-size: 0.8em;
+  }
+
+  .checkbox {
+    margin-right: 5px;
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  .submit-button {
+    padding: 8px 16px;
+    margin-top: 8px;
+  }
+
+  .model {
+    padding-top: 100px;
+  }
+
+  .model h2 {
+    font-size: 28px;
+  }
+
+  .model h3 {
+    font-size: 18px;
+  }
+
+  .model-1 {
+    padding-top: 20px;
+    flex-direction: column; 
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .model-1 img {
+  width: 300px;
+  }
+
+  .AUDI-6 {
+    width: 250px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .rent {
+    width: 150px;
+    height: 30px;
+    font-size: 40px;
+  }
+
+  .table-responsive {
+    font-size: 14px;
+  }
+
+  .sav-1 {
+    padding-top: 80px;
+  }
+  .save {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+  .save h2 {
+    font-size: 30px;
+  }
+
+  .save2 {
+    width: 90%;
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+  .save2 {
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .save2 img {
+    width: 90%;
+  
+  }
+
+  .container.cross {
+    padding-top: 70px;
+  }
+
+  .cross-1 {
+    width: 100%;
+    text-align: center;
+  }
+.cross-11{
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.cross-11 img{
+  width:200px;
+}
+  .best {
+    width: 100%;
+    text-align: center;
+  }
+
+  .detail {
+    width: 100%;
+  }
+  .ron-1 {
+    padding-top: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ron2 {
+    padding-top: 50px;
+  }
+
+  .ron3 {
+    gap: 10px;
+    padding-top: 20px;
+  }
+  .ron-3{
+    padding-top: 70px;
+  }
+
+  .ron1 {
+    width: 70%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .ron-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .ron1 img {
+    width: 50%;
+  }
+
+  .ron1 h1 {
+    font-size: 18px;
+  }
+
+  .ron1 h2 {
+    font-size: 16px;
+  }
+
+  .ron1 h4 {
+    font-size: 14px;
+  }
+
+  .ron2 h3 {
+    font-size: 18px;
+  }
+
+  .ron2 p {
+    font-size: 14px;
+  }
+
+   .pat-5{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .patt-1 {
+    padding-top: 50px;
+    position: absolute;
+    z-index: 1;
+    width: 370px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .question {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    height: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .question h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .question span {
+    font-size: 18px;
+  }
+
+  .answer {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+    .load {
+      padding-top: 50px;
+      padding-bottom: 60px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    
+    .download img{
+      width: 300px;
+    }
+    
+    .download {
+      align-items: center;
+      justify-content: center;
+      padding-left: 90px;
+    }
+  
+   .phone img {
+    display: none;
+    }
+  
+   .phone {
+    display: none;
+    }
+  
+    .Foot {
+      padding-top: 80px; 
+    }
+  
+    .foot-5 {
+      flex: 0 0 100%; 
+      max-width: 100%;
+      margin-bottom: 20px; 
+    }
+  
+    .form-email {
+      width: 100%; 
+      max-width: 300px; 
+    }
+  
+    .btm-0 {
+      width: 100%;
+    }
+  }
+  
+
+

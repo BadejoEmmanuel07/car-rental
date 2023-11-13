@@ -1,0 +1,102 @@
+.about1{
+  padding-top: 90px;
+}
+  .about3 span{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+.about1 h2{
+  font-size: 20px;
+
+}
+.about1h1{
+  font-size: 27px;
+}
+/* YourStyleSheet.css */
+
+.drivec1 {
+  background-image: url('./images/book-bannercar.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.drivec {
+  padding-top: 100px;
+}
+
+.drivec1 h5 {
+  color: white;
+  font-size: 30px;
+}
+
+.drivec1 span {
+  color: #FF4D30;
+  font-size: 30px;
+}
+
+
+
+.contact1{
+  padding-top: 100px;
+}
+
+.contact1 input{
+  border: none;
+  background-color: #F2F2F2;
+}
+.contact2 .form-control1{
+  width: 500px;
+  height: 40px;
+}
+.contact2 .form-control{
+  width: 500px;
+  height: 170px;
+  background-color: #F2F2F2;
+}
+.contact2 h4{
+  font-size: 19px;
+}
+.contact2 span{
+  color: #FF4D30;
+}
+.ron23{
+  padding-top: 60px;
+}
+
+.contact3{
+  width: 500px;
+}
+.gap{
+  gap: 70px;
+}
+.team{
+  padding-top: 100px;
+}
+.model1{
+  padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .img-small {
+    max-width: 30%;
+  }
+  .drivec1 {
+    height: 20vh;
+    padding-top: 40px; 
+    width: 100%;
+  }
+
+  .drivec1 h5 {
+    font-size: 20px; 
+  }
+
+  .drivec1 span {
+    font-size: 20px; 
+  }
+}
