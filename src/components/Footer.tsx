@@ -35,7 +35,7 @@ const Footer = () => {
               <input type="email" className="form-control" placeholder="Enter Email Address"/>
             </div>
             <div className="sum mt-2">
-              <button className="btn btn-primary">Submit</button>
+              <button className="btm-0">Submit</button>
             </div>
           </div>
         </div>

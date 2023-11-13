@@ -881,8 +881,8 @@ color: gray;
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
-  margin-top: 100px;
+  padding-top: 70px;
+  margin-top: 70px;
 }
 .cross-11 img{
   width:200px;
@@ -890,7 +890,7 @@ color: gray;
 .cross .detail {
   font-size: 12px; /* Adjust the font size as needed */
   padding: 5px 10px; /* Add padding to the button as needed */
-  width: 100px;
+  width: 150px;
 }
 
 .cross {
@@ -901,9 +901,7 @@ color: gray;
     text-align: center;
   }
 
-  .detail {
-    width: 30%;
-  }
+  
   .ron-1 {
     padding-top: 20px;
     gap: 20px;
