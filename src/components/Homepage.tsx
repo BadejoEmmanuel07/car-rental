@@ -21,7 +21,7 @@ const Homepage = ({
     selectedDropoffLocation: string;
     onClose: () => void;
 }) => {
-    const carImages: { [key: string]: string } = {
+    const carImage: { [key: string]: string } = {
         "option2": Audii,
         "option3": golf,
         "option4": Cmary,
@@ -54,7 +54,7 @@ const Homepage = ({
                     </div>
                 </div>
                 <div className=''>
-                    <img src={carImages[selectedCar]} alt=""/>
+                    <img src={carImage[selectedCar]} alt=""/>
                 </div>
             </div>
             <div className="contain-7"></div>

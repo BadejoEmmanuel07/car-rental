@@ -2,7 +2,7 @@ import React from 'react';
 import { audimodel, bmwmodel, benzmodel, passatmodel, golfmodel, toyotamodel } from '../images/index';
 
 const VehicleModel = () => {
-  const vehicleModels = [
+  const vehicleModel = [
     { name: 'Audi', image: audimodel, price: '$39' },
     { name: 'Mercedes Benz', image: benzmodel, price: '$39' },
     { name: 'BMW', image: bmwmodel, price: '$39' },
@@ -21,7 +21,7 @@ const VehicleModel = () => {
     <div className="">
     <div className="container model1">
       <div className="row">
-        {vehicleModels.map((model, index) => (
+        {vehicleModel.map((model, index) => (
           <div key={index} className="col-md-4 mb-4">
             <div className="card shadow">
               <img src={model.image} alt={model.name} className="card-img-top img-fluid" />

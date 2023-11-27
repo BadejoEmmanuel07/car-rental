@@ -24,7 +24,7 @@ const Home = () => {
   const [selectedDropoffLocation, setSelectedDropoffLocation] = useState("");
   const [selectedDropoffDate, setSelectedDropoffDate] = useState("");
   const [selecteCar, setSelecteCar] = useState<string | null>("Audi A1 S-Line");
-  const faqData = [
+  const Datacar = [
     {
       question: 'What is special about comparing rental car deals?',
       answer:
@@ -78,7 +78,7 @@ const Home = () => {
     setSelecteCar(car);
   };
 
-  const carDetails: { [key: string]: { image: string, year: string, doors: string, ac: string, transmission: string, fuel: string } } = {
+  const carDetail: { [key: string]: { image: string, year: string, doors: string, ac: string, transmission: string, fuel: string } } = {
     'Audi A1 S-Line': {
       image: Audii,
       year: '2012',
@@ -310,8 +310,8 @@ const Home = () => {
     </div>
   </div>
   <div className="flex-grow-1">
-  {selecteCar && carDetails[selecteCar] ? (
-    <img src={carDetails[selecteCar].image} alt="" />
+  {selecteCar && carDetail[selecteCar] ? (
+    <img src={carDetail[selecteCar].image} alt="" />
   ) : (
     <p>Car image not available</p>
   )}
@@ -323,7 +323,7 @@ const Home = () => {
     </div>
     <table className="table table-sm custom-table">
       <tbody>
-        {selecteCar && carDetails[selecteCar] ? (
+        {selecteCar && carDetail[selecteCar] ? (
           <>
             <tr>
               <td>Model</td>
@@ -335,23 +335,23 @@ const Home = () => {
             </tr>
             <tr>
               <td>Year</td>
-              <td>{carDetails[selecteCar].year}</td>
+              <td>{carDetail[selecteCar].year}</td>
             </tr>
             <tr>
               <td>Doors</td>
-              <td>{carDetails[selecteCar].doors}</td>
+              <td>{carDetail[selecteCar].doors}</td>
             </tr>
             <tr>
               <td>AC</td>
-              <td>{carDetails[selecteCar].ac}</td>
+              <td>{carDetail[selecteCar].ac}</td>
             </tr>
             <tr>
               <td>Transmission</td>
-              <td>{carDetails[selecteCar].transmission}</td>
+              <td>{carDetail[selecteCar].transmission}</td>
             </tr>
             <tr>
               <td>Fuel</td>
-              <td>{carDetails[selecteCar].fuel}</td>
+              <td>{carDetail[selecteCar].fuel}</td>
             </tr>
           </>
         ) : (
@@ -480,18 +480,18 @@ const Home = () => {
 <div className="patt-1">
 <div className="pat-1">
 <div>
-      {faqData.map((faq, index) => (
+      {Datacar.map((car, index) => (
         <div key={index}>
           <div
             className="question d-flex justify-content-center "
             onClick={() => handleAccordionClick(index)}
           >
-            <h3>{faq.question}</h3>
+            <h3>{car.question}</h3>
             <span>{activeIndex === index ? '-' : '+'}</span>
           </div>
           {activeIndex === index && (
             <div className="answer">
-              <p>{faq.answer}</p>
+              <p>{car.answer}</p>
             </div>
           )}
         </div>

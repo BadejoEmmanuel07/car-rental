@@ -3,7 +3,7 @@ import { tman, fman, fwoman, twoman, sman, swoman } from '../images/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Team = () => {
-  const teamMembers = [
+  const teamMember = [
     { name: 'Thomas David', image: tman, description: 'CEO' },
     { name: 'Davies Diana', image: fwoman, description: 'COO' },
     { name: 'Gomez Grace', image: swoman, description: 'CFO' },
@@ -16,7 +16,7 @@ const Team = () => {
     <div className="">
     <div className="container team">
       <div className="row">
-        {teamMembers.map((member, index) => (
+        {teamMember.map((member, index) => (
           <div key={index} className="col-md-4 mb-4">
             <div className="card shadow border-0">
               <img src={member.image} alt={member.name} className="card-img-top img-fluid" />
